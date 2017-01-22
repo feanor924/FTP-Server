@@ -1,0 +1,16 @@
+Caner Bakar
+121044047
+
+				System Final Report
+
+--Aynı anda dosya gönderimi yapılabilmesi için mutex kullanıldı.
+--Aynı anda operation alabilmesi için mutex kullanıldı.
+--Client dosya gönderirken Ctrl-c yaptığı zaman, dosya gönderimi bekleyip daha sonra çıkıldı.Server a bu durum bildirildi
+--Server ctrl c yaptığı zaman tüm clientlar öldü
+--Client'tan client'a dosya gönderimi yapıldı.
+
+Programın başında choice girmeniz bekleniyor, gerekli komutları görmek için help yapabilirsiniz.
+
+./exec = server executable
+./exec1 = client executable
+
